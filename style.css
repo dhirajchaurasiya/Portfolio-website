@@ -14,8 +14,8 @@
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 0 0 5px #47A992;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -446,7 +446,7 @@ article .icon {
   to {left: 15%;}
 }
 
-img{
+/* img{
 	transform: scale(1.5, 1.5);
 	-webkit-animation-name: zoomin;
   	-webkit-animation-duration: 40s;
@@ -462,7 +462,7 @@ img{
 @keyframes zoomin {
   from {transform: scale(1, 1);}
   to {transform: scale(1.5, 1.5);}
-}
+} */
 
 @media screen and (max-width: 800px){
 	.myslide{
