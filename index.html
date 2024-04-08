@@ -233,30 +233,32 @@
       font-family: 'Merriweather', serif;
       font-size: 2.5rem;">Certificate</h1>
       <hr>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets\certificate-1.png"
-                alt="Certificate 1"
-                class="Certificate-img"
-                style
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Data Science Workshop</h2>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets\certificate-2.png"
-                alt="Certificate 2"
-                class="Certificate-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Ziroh</h2>
-          </div>
+      <div class="slider">
+        <div class="myslide fade">
+          <img src="assets/certificate-1.png" alt="certificate-1" style="width: 100%; height: 100%;"><br>
+          <h2>Certificate</h2>
         </div>
+
+        <div class="myslide fade">
+          <img src="assets/certificate-2.png" alt="certificate-1" style="width: 100%; height: 100%;"><br>
+          <h2>Certificate</h2>
+        </div>
+
+        <div class="myslide fade">
+          <img src="assets/certificate-1.png" alt="certificate-1" style="width: 100%; height: 100%;"><br>
+          <h2>Certificate</h2>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
       </div>
     </section>
     <div class="space"></div>
