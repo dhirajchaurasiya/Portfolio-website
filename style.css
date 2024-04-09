@@ -14,8 +14,8 @@
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 0 0 5px #47A992;
-    width: 250px;
-    height: 250px;
+    width: 325px;
+    height: 325px;
     object-fit: cover;
 }
 
@@ -168,8 +168,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   margin: auto 0;
 }
 
@@ -542,7 +542,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
   margin: 2rem auto;
-  padding: 0.5rem;
+  padding: 0.15rem;
 }
 
 .contact-info-container {
@@ -567,6 +567,7 @@ article .icon {
 
 /* FOOTER SECTION */
 footer {
+  padding-top: 35px;
   margin: 0 1rem;
   background-color: #DFEEEA; 
   border-radius: 10px;

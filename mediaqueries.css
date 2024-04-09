@@ -1,4 +1,7 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
+  .profile-picture{
+    padding: auto;
+  }
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -73,7 +76,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   #contact,
   footer {
     height: 40vh;

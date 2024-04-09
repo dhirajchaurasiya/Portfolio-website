@@ -7,7 +7,7 @@ hamburger.addEventListener("click",()=>{
 })
 
 var typed = new Typed(".typing-2", {
-  strings: [" 👨‍💻 A Tech Enthusiast ","👨‍🎓 A Electronics Communication And Information Engineering student ", " 🚀 Aspiring Flutter Developer",""],
+  strings: [" 👨‍💻 A Tech Enthusiast ","👨‍🎓 An Electronics Communication And Information Engineering student ", " 🚀 Aspiring Flutter Developer",""],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
