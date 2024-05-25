@@ -1,7 +1,4 @@
-@media screen and (max-width: 1200px) {
-  .profile-picture{
-    padding: auto;
-  }
+@media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -76,7 +73,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   #contact,
   footer {
     height: 40vh;
@@ -87,6 +84,9 @@
   }
   article {
     font-size: 1rem;
+  }
+  footer{
+    margin-top:2rem;
   }
   footer nav {
     height: fit-content;
@@ -129,4 +129,50 @@
   .text-container {
     text-align: justify;
   }
+}
+
+
+@media screen and (max-width: 1033px) {
+  .prev,
+  .next {
+    display: none; /* Hide the buttons when the screen width is 768px or less */
+  }
+}
+@media screen and (max-width: 1033px) {
+  .prevs,
+  .nexts {
+    display: none; /* Hide the buttons when the screen width is 768px or less */
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  #Certificate .details-container-certificate img{
+  height: 100%;
+  width:100%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0px;
+}
+#projects{
+  margin: 0px;
+}
+#Certificate{
+  margin: 0px;
+}
+.myslide{
+  margin:0;
+}
+img[src="assets/certificate-2.png"] {
+  height: 300px;
+}
+
+.nav-links-containers{
+  margin-top:100px;
+}
+#projects {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+#Certificate {
+  margin-top: 20px; /* Adjust as needed */
+}
 }
