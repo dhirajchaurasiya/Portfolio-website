@@ -7,7 +7,7 @@ hamburger.addEventListener("click",()=>{
 })
 
 var typed = new Typed(".typing-2", {
-  strings: [" 👨‍💻 A Tech Enthusiast ","👨‍🎓 An Electronics Communication And Information Engineering student ", " 🚀 Aspiring Flutter Developer",""],
+  strings: [" 👨‍💻 A Tech Enthusiast ","👨‍🎓 A Computer Engineering student ", " 🚀 Aspiring Web-Developer","🎨 UI Designer"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
@@ -19,7 +19,7 @@ document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener("click",()=
 }))
 
 const myslide = document.querySelectorAll('.myslide'),
-	  dot = document.querySelectorAll('.dot');
+	dot = document.querySelectorAll('.indicator');
 let counter = 1;
 slidefun(counter);
 
@@ -40,7 +40,7 @@ function currentSlide(n) {
 }
 function resetTimer() {
 	clearInterval(timer);
-	timer = setInterval(autoSlide, 8000);
+	timer = setInterval(autoSlide, 5000);
 }
 
 function slidefun(n) {
@@ -53,11 +53,11 @@ function slidefun(n) {
 		dot[i].className = dot[i].className.replace(' active', '');
 	}
 	if(n > myslide.length){
-	   counter = 1;
-	   }
+	counter = 1;
+	}
 	if(n < 1){
-	   counter = myslide.length;
-	   }
+	counter = myslide.length;
+	}
 	myslide[counter - 1].style.display = "block";
 	dot[counter - 1].className += " active";
 }
