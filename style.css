@@ -64,7 +64,6 @@ nav {
 }
 .top-container{
   background-color: #e8e8e8;
-
 }
 a {
   color: black;
@@ -91,6 +90,10 @@ a:hover {
 header{
 
   background-color: #262626;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
 li{
   list-style: none;
@@ -167,6 +170,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin-top: 17vh;
 }
 
 .section__pic-container {
