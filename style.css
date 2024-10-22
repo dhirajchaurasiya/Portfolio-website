@@ -63,8 +63,7 @@ nav {
   font-size: 1.5rem;
 }
 .top-container{
-  background-color: #E8E8E8;
-
+  background-color: #e8e8e8;
 }
 a {
   color: black;
@@ -91,6 +90,10 @@ a:hover {
 header{
 
   background-color: #262626;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
 li{
   list-style: none;
@@ -106,6 +109,7 @@ li{
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  text-align: center;
 }
 .nav-menu{
   display: flex;
@@ -114,7 +118,16 @@ li{
   gap:60px;
 }
 .my-name{
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem; 
+  p{
+    color: whitesmoke;
+  }
+  
+  /*   
+  text-align: center;
+  */
 }
 .nav-link{
   transition:0.7s ease;
@@ -157,6 +170,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin-top: 17vh;
 }
 
 .section__pic-container {
@@ -686,4 +700,36 @@ footer > nav {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+
+/* modifications for hackerfest */
+.dclogo{             /* logo in navbar*/
+  height:auto;
+  width: 4vw;
+}
+
+.gotop{                  /* go to top button above footer*/
+
+  height: 35px;
+  text-align: center;
+  border-radius: 5px;
+
+  a{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    .toparrow{
+      mix-blend-mode: multiply;
+      filter: invert(0);
+      height: 10px;
+      padding: 0;
+    }
+    p{
+      margin: -12px 0;
+      padding: 0;
+      color: black;
+    }
+  }
+  
 }
