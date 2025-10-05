@@ -180,6 +180,16 @@ section {
   margin: auto 0;
   
 }
+.details-container-edu:hover{
+  transform: scale(1.20);
+  cursor: pointer;
+  transition: .3s;
+}
+.details-container:hover{
+    transform: scale(1.10);
+  cursor: pointer;
+  transition: .3s;
+}
 
 .section__text {
   align-self: center;
